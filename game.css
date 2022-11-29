@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.two-faces {
+  width: 450px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  background-color: beige;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: 3px solid red;
+}
+
+.btnJogar{
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: white;
+  transition: filter .2s;
+  margin-top: 40px;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.line {
+  display: flex;
+  justify-content: space-around;
+}
+
+.point {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.invisiblePoint {
+  background-color: beige;
+}
